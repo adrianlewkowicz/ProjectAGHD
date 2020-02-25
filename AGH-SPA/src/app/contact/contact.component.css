@@ -11,3 +11,11 @@
   width:100%;
   position:absolute;
 }
+
+section
+{
+  width: 90%;
+  position: relative;
+  top: 40px;
+  left: 4%;
+}
