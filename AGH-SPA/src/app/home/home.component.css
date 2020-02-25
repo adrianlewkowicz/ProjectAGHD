@@ -1,0 +1,26 @@
+.view {
+  background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+.view {
+  background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+.MG
+{
+  font-size: 10px;
+  position: relative;
+  left: 20%;
+  bottom: 30px;
+}
+
+.btn
+{
+ width: 25%;
+ height: 55px;
+ opacity: 0.7;
+ color: black;
+ border-radius: 29px;
+}

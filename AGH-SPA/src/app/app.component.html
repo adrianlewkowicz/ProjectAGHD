@@ -1,0 +1,26 @@
+<mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark indigo scrolling-navbar intro-fixed-nav" [containerInside]="false">
+  <mdb-navbar-brand>
+      <a class="logo navbar-brand" href="#"><strong>Navbar</strong></a>
+  </mdb-navbar-brand>
+  <links>
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active waves-light" mdbWavesEffect>
+              <a class="nav-link" [routerLink]="['/home']" >Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item waves-light" mdbWavesEffect>
+              <a class="nav-link" [routerLink]="['/about']">O nas</a>
+          </li>
+          <li class="nav-item waves-light" mdbWavesEffect>
+              <a class="nav-link" [routerLink]="['/job']">Prace</a>
+          </li>
+          <li class="nav-item waves-light" mdbWavesEffect>
+            <a class="nav-link" [routerLink]="['/blog']">Blog</a>
+         </li>
+         <li class="nav-item waves-light" mdbWavesEffect>
+          <a class="nav-link" [routerLink]="['/contact']">Kontakt</a>
+      </li>
+      </ul>
+  </links>
+</mdb-navbar>
+<router-outlet></router-outlet>
+
