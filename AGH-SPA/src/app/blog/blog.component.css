@@ -1,0 +1,13 @@
+section
+{
+    width: 98%;
+    position: relative;
+    top: 50px;
+    left: 1%;
+}
+
+.row
+{
+  position: relative;
+  bottom: 15px;
+}
