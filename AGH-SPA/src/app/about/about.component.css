@@ -24,6 +24,10 @@
   cursor: pointer;
 }
 
+.pic:hover {
+  opacity: 0.9;
+}
+
 ul {
   list-style-type: none;
   display: flex;
@@ -40,5 +44,8 @@ ul {
   cursor: pointer;
   color: lightblue;
   letter-spacing: 15px;
+}
 
+.fab:hover {
+  color: lightskyblue;
 }
