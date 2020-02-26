@@ -1,5 +1,51 @@
-.container
-{
+.container {
   position: relative;
   top: 50px;
+}
+
+.crew {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.text {
+  display: block;
+  height: 10%;
+}
+
+.pic {
+  width: 80%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px black;
+  cursor: pointer;
+}
+
+.pic:hover {
+  opacity: 0.9;
+}
+
+ul {}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.fab {
+  font-size: 24px;
+  text-align: center;
+  line-height: 24px;
+  cursor: pointer;
+  color: lightblue;
+  letter-spacing: 15px;
+}
+
+.fab:hover {
+  color: lightskyblue;
 }
