@@ -13,5 +13,11 @@ section
 .row
 {
   position: relative;
-  bottom: 35px;
+  bottom: 100px;
+}
+
+.bubu
+{
+  position: relative;
+  bottom: 100px;
 }
