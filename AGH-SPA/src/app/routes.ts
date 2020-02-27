@@ -1,3 +1,4 @@
+import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
 import { BlogComponent } from './blog/blog.component';
 import { JobComponent } from './job/job.component';
@@ -13,6 +14,7 @@ export const appRoutes: Routes = [
   {path: 'job', component: JobComponent},
   {path: 'blog', component: BlogComponent},
   {path: 'contact', component: ContactComponent},
+  {path: 'team', component: TeamComponent},
 
   {path: '**', redirectTo: '', pathMatch: 'full'},
 ];

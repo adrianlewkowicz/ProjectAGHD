@@ -1,0 +1,83 @@
+section {
+  position: relative;
+  bottom: 50px;
+  left: 5%;
+  width: 90%;
+  background-color: none;
+  color: aliceblue;
+}
+
+.crew {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.text {
+  display: block;
+  height: 10%;
+}
+
+.pic {
+  width: 80%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px black;
+  cursor: pointer;
+}
+
+.pic:hover {
+  opacity: 0.9;
+}
+
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.fab {
+  font-size: 24px;
+  text-align: center;
+  line-height: 24px;
+  cursor: pointer;
+  color: lightblue;
+  letter-spacing: 15px;
+}
+
+.fab:hover {
+  color: lightskyblue;
+}
+
+.row
+{
+ font-size: 15px;
+ color: white;
+}
+
+.pTeam
+{
+  font-size: 20px;
+  color: white;
+}
+
+.hmr
+{
+  position: relative;
+  right: 5%;
+  width: 50%;
+
+}
+.col
+{
+  position: relative;
+  top: 20px;
+  left: 20%;
+  font-size: 35px;
+  color: black;
+}

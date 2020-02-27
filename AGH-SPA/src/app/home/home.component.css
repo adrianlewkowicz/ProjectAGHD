@@ -13,8 +13,7 @@
   font-size: 10px;
   position: relative;
   left: 40%;
-  top: 10px;
-  bottom: 30px;
+  bottom: 50px;
 }
 
 .btn
@@ -28,6 +27,8 @@
 
 .MGAB
 {
+  position: relative;
+  bottom: 50px;
   font-size: 30px;
 }
 
@@ -35,4 +36,9 @@ a
 {
 
   font-size: 15px;
+}
+.font-up
+{
+  position: relative;
+  bottom: 50px;
 }

@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AGH.API.Controllers
 {
+    // http://localhost:5000/api/blog
     [Route("api/[controller]")]
     [ApiController]
     public class BlogController : ControllerBase

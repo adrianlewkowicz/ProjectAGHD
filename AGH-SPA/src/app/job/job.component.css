@@ -3,10 +3,15 @@ section
   width: 90%;
   position: relative;
   left: 5%;
-
 }
 
 .py-3
 {
   text-align: center;
+}
+
+.row
+{
+  position: relative;
+  bottom: 35px;
 }

@@ -1,21 +1,37 @@
-.map-container-section {
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
-.map-container-section iframe {
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-}
-
 section
 {
   width: 90%;
   position: relative;
-  top: 40px;
+  top: 25%;
   left: 4%;
+  opacity: 0.9;
 }
+
+.card-body
+{
+  color: black;
+  position: relative;
+}
+
+.fas
+{
+  color: blue;
+}
+
+p
+{
+  color: black;
+}
+
+.my-4
+{
+  color: black;
+}
+
+.btn-floating
+{
+  position: relative;
+  left: 95%;
+}
+
+
