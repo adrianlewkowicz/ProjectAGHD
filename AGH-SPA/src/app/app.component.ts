@@ -9,9 +9,20 @@ declare var jarallax: any;
 })
 export class AppComponent implements AfterViewInit {
 
+  currentSection = 'section1';
+
   ngAfterViewInit() {
     jarallax(document.querySelectorAll('.jarallax'), {
       speed: 0.2
     });
+  }
+
+   onSectionChange(sectionId: string) {
+    this.currentSection = sectionId;
+  }
+
+  scrollTo(section) {
+    document.querySelector('#' + section)
+    .scrollIntoView();
   }
 }
