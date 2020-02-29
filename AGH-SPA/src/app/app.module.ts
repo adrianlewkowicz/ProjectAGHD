@@ -1,9 +1,11 @@
+import { ScrollSpyDirective } from './_models/scrol-spy.directive';
 import { BlogService } from './_services/blog.service';
 import { appRoutes } from './routes';
 import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+
 
 
 import { AppComponent } from './app.component';
@@ -22,15 +24,16 @@ import { TeamComponent } from './team/team.component';
       JobComponent,
       BlogComponent,
       ContactComponent,
-      TeamComponent
+      TeamComponent,
+      ScrollSpyDirective
    ],
    imports: [
       BrowserModule,
       MDBBootstrapModule.forRoot(),
-      RouterModule.forRoot(appRoutes)
+      RouterModule.forRoot(appRoutes),
    ],
    providers: [
-      BlogService
+      BlogService,
    ],
    bootstrap: [
       AppComponent

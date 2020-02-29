@@ -10,14 +10,8 @@ section
   text-align: center;
 }
 
-.row
+.strong
 {
-  position: relative;
-  bottom: 100px;
-}
-
-.bubu
-{
-  position: relative;
-  bottom: 100px;
+  font-size: 80px;
+  font-weight: 700;
 }
