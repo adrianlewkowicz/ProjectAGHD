@@ -1,17 +1,71 @@
-section
-{
-  width: 90%;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  display: inline;
+}
+
+section {
+  display: block;
+  margin: 0 auto;
   position: relative;
-  left: 5%;
 }
 
-.py-3
-{
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  margin-top: -10px;
+  padding: 0 10px;
+  position: relative;
+  height: 60%;
+  width: 100%;
+
+}
+
+div.res {
+  margin-bottom: 5%;
+}
+
+div.py-5 {
+  margin: 10px 20px;
   text-align: center;
+  height: 50%;
 }
 
-.strong
-{
-  font-size: 80px;
+h3.py-3 {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2.jobh2 {
+  margin-top: 20px;
+  font-size: 100px;
   font-weight: 700;
+}
+
+@media(max-width:500) {
+
+  /* job */
+  p {
+
+    display: none;
+  }
+
+  div.row {
+    height: 100000px;
+  }
+
+  .ic {
+    position: absolute;
+    top: -180%;
+    left: auto;
+  }
+
+
 }
