@@ -13,6 +13,7 @@ section {
   position: relative;
 }
 
+/* .row to div całej sekcji jest w każdej podstronie*/
 .row {
   display: flex;
   justify-content: space-around;
@@ -57,10 +58,8 @@ h2.jobh2 {
     display: none;
   }
 
-  div.row {
-    height: 100000px;
-  }
 
+  /* ikony "kontakt */
   .ic {
     position: absolute;
     top: -180%;
