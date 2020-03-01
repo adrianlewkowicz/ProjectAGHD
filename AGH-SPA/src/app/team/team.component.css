@@ -54,27 +54,31 @@ ul {
   color: lightskyblue;
 }
 
-.row
-{
- font-size: 15px;
- color: white;
-}
-
-.pTeam
-{
-  font-size: 20px;
+.row {
+  font-size: 15px;
   color: white;
 }
 
-.hmr
-{
+.pTeam {
+  font-size: 18px;
+  color: white;
+
+}
+
+.hmr {
   position: relative;
   right: 5%;
   width: 50%;
 
+
 }
-.col
-{
+
+h2.my-5 {
+  color: white;
+  font-size: 70px;
+}
+
+.col {
   position: relative;
   top: 20px;
   left: 20%;
